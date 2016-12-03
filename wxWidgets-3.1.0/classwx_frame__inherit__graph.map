@@ -1,0 +1,18 @@
+<map id="wxFrame" name="wxFrame">
+<area shape="rect" id="node8" href="$classwx_doc_child_frame.html" title="The wxDocChildFrame class provides a default frame for displaying documents on separate windows..." alt="" coords="949,5,1080,32"/>
+<area shape="rect" id="node9" href="$classwx_doc_parent_frame.html" title="The wxDocParentFrame class provides a default top&#45;level frame for applications using the document/vie..." alt="" coords="945,56,1084,83"/>
+<area shape="rect" id="node10" href="$classwx_html_help_frame.html" title="This class is used by wxHtmlHelpController to display help. " alt="" coords="949,107,1080,133"/>
+<area shape="rect" id="node11" href="$classwx_m_d_i_child_frame.html" title="An MDI child frame is a frame that can only exist inside a wxMDIClientWindow, which is itself a child..." alt="" coords="949,157,1080,184"/>
+<area shape="rect" id="node13" href="$classwx_m_d_i_parent_frame.html" title="An MDI (Multiple Document Interface) parent frame is a window which can contain MDI child frames in i..." alt="" coords="945,208,1084,235"/>
+<area shape="rect" id="node15" href="$classwx_mini_frame.html" title="A miniframe is a frame with a small title bar. " alt="" coords="965,259,1065,285"/>
+<area shape="rect" id="node16" href="$classwx_preview_frame.html" title="This class provides the default method of managing the print preview interface. " alt="" coords="953,309,1076,336"/>
+<area shape="rect" id="node17" href="$classwx_splash_screen.html" title="wxSplashScreen shows a window with a thin border, displaying a bitmap describing your application..." alt="" coords="955,360,1075,387"/>
+<area shape="rect" id="node2" href="$classwx_top_level_window.html" title="wxTopLevelWindow is a common base class for wxDialog and wxFrame. " alt="" coords="635,183,773,209"/>
+<area shape="rect" id="node3" href="$classwx_non_owned_window.html" title="Common base class for all non&#45;child windows. " alt="" coords="436,183,587,209"/>
+<area shape="rect" id="node4" href="$classwx_window.html" title="wxWindow is the base class for all windows and represents any visible object on screen. " alt="" coords="301,183,388,209"/>
+<area shape="rect" id="node5" href="$classwx_evt_handler.html" title="A class that can handle events from the windowing system. " alt="" coords="149,183,253,209"/>
+<area shape="rect" id="node6" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes. " alt="" coords="15,157,92,184"/>
+<area shape="rect" id="node7" href="$classwx_trackable.html" title="Add&#45;on base class for a trackable object. " alt="" coords="5,208,101,235"/>
+<area shape="rect" id="node12" href="$classwx_doc_m_d_i_child_frame.html" title="The wxDocMDIChildFrame class provides a default frame for displaying documents on separate windows..." alt="" coords="1136,157,1291,184"/>
+<area shape="rect" id="node14" href="$classwx_doc_m_d_i_parent_frame.html" title="The wxDocMDIParentFrame class provides a default top&#45;level frame for applications using the document/..." alt="" coords="1132,208,1295,235"/>
+</map>
