@@ -122,45 +122,45 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>灵活的事件系统。 </li>
 <li>所有的常见和不常见的 GUI 控件。 </li>
 <li>所有标准对话框。 </li>
-<li>2D path-based drawing API with full support for transparency. </li>
-<li>Built-in support for many file formats (BMP, PNG, JPEG, GIF, XPM, PNM, PCX, TGA, ...). </li>
-<li>Printing, help, clipboard, drag-and-drop, document/view, ... support. </li>
-<li>Integration with the native platform HTML rendering engine. </li>
-<li>Dockable windows framework. </li>
-<li>Word processor-like widget. </li>
-<li>Powerful text editing widget with syntax highlighting. </li>
-<li>And much, much more...</li>
+<li>完全支持透明度、基于 2D 路径的绘图 API。 </li>
+<li>内建支持许多文件格式（BMP、PNG、JPEG、GIF、XPM、PNM、PCX、TGA，……）。 </li>
+<li>支持打印，帮助，剪贴板，拖放，文档/视图，…… </li>
+<li>集成了平台原生的 HTML 渲染引擎。 </li>
+<li>可停靠的窗口框架。 </li>
+<li>类似处理器的 word 部件。 </li>
+<li>带有语法高亮功能的、强大的文本编辑部件。  </li>
+<li>还有很多，很多……</li>
 </ul>
 <h1><a class="anchor" id="page_introduction_requirements"></a>
 wxWidgets 的要求</h1>
-<p>wxWidgets first-tier "ports", ie implementations of wxWidgets API, are:</p>
+<p>wxWidgets 的第一级“端口”，即 wxWidgets API 的实现：</p>
 <ul>
-<li>wxMSW: This is the native port for Microsoft Windows systems (from Windows XP up to Windows 10), either 32 or 64 bits. The primarily supported compilers are Microsoft Visual C++ (versions 2003 up to 2015 are supported, at least 2005 is recommended) and GNU g++ (either from the traditional MinGW, TDM-GCC or MinGW-w64 distributions).</li>
+<li>wxMSW：这是 Microsoft Windows 系统（从 XP 到 win10）的本地端口，包括 32 位和 64 位。主要支持的编译器是 Microsoft Visual C++ （支持版本从2003到2015，推荐至少2005版）以及 GNU 的 g++ （包括MinGW，TDM-GCC，MinGW-w64）。</li>
 </ul>
 <ul>
-<li>wxGTK: wxGTK2 and wxGTK3 are the ports using GTK+ library version 2.x and 3.x respectively. They are very similar, with wxGTK2 being, however, more mature. Both ports work on almost any Unix system (Linux, FreeBSD, OpenBSD, NetBSD, Solaris, AIX, ...) and require GTK+ 2.6 or later or GTK+ 3.x. The primary supported compiler is GNU g++.</li>
+<li>wxGTK：wxGTK2 和 wxGTK3 分别是使用 GTK+ 库 2.x系列和 3.x 系列的端口。它们很类似，但是 wxGTK2 更成熟。两者都可以工作在几乎所有的 Unix 系统（Linux，FreeBSD，OpenBSD，NetBSD，Solaris，AIX，……）上，但是要求 GTK+ 2.6 以上或者 GTK+ 3.x。主要支持的编译器是 GNU g++。</li>
 </ul>
 <ul>
-<li>wxOSX/Cocoa: This is the native port for Apple computers. wxOSX/Cocoa supports 32 or 64 bit Intel Macs running OS X 10.7 or later. The port can be built either with g++ or clang.</li>
+<li>wxOSX/Cocoa:：这是 Apple 电脑的本地端口。wxOSX/Cocoa 支持 32 位或 64 位的、运行 OS X 10.及以上版本的 英特尔 Mac 电脑。 端口可以使用 g++ 或 clang 构建。</li>
 </ul>
-<p>Other platforms (e.g. iOS), compilers (Borland C++ under Windows, Sun CC, HP-UX aCC, IBM xlC or SGI mipsPro under Unix) and ports ( wxQT, wxGTK1, wxX11, wxDFB...) are also supported but to a lesser extent. Please see the <a class="el" href="page_port.html">platform details page</a> for more information.</p>
-<p>There are no CPU speed requirements but the faster (and more) CPU(s) you have, the faster the library will compile. You do need to have enough RAM, especially under Windows platforms, to avoid running out of memory during link phase. Depending on the compiler used, you may need at least 4GB to be able to link. Under all platforms it's recommended to have large amounts of free hard disk space. The exact amount needed depends on the port, compiler and build configurations but at least 1GB and possibly more is required.</p>
+<p>其它平台 （比如iOS）、编译器（Windows上的 Borland C++ ，Unix 上的 Sun CC、 HP-UX aCC、 IBM xlC 或 SGI mipsPro）以及 端口 （wxQT，wxGTK1,，wxX11,，wxDFB……）也被支持，只是范围比较小。请查看<a class="el" href="page_port.html">平台详细说明页面</a>以获取更多信息。</p>
+<p>对 CPU 速度没有要求，但是你的 CPU(s) 速度越快，编译的就越快。要求要有足够的内存，尤其在 Windows 平台，要避免链接时用尽内存。依照以往的编译经验，你可能需要至少 4GB 的内存以应对链接。在所有的平台上都推荐有足够大的硬盘空间。确切的容量依赖于端口、编译器以及构建的配置，但是至少要 1GB ，可能需要更多。</p>
 <h1><a class="anchor" id="page_introduction_where"></a>
 获得 wxWidgets 以及技术支持</h1>
-<p>The download links can be found at <a href="https://www.wxwidgets.org">https://www.wxwidgets.org</a>. The primary download location is <a href="https://github.com/wxWidgets/wxWidgets/releases/latest">https://github.com/wxWidgets/wxWidgets/releases/latest</a>. Additionally, the latest version can always be retrieved from our version control system using Git (<a href="https://github.com/wxWidgets/wxWidgets">https://github.com/wxWidgets/wxWidgets</a>).</p>
-<p>wxWidgets documentation that you are reading is also available online at <a href="http://docs.wxwidgets.org/trunk/">http://docs.wxwidgets.org/trunk/</a> and please also visit our wiki at <a href="https://wiki.wxwidgets.org/">https://wiki.wxwidgets.org/</a> for user-contributed contents.</p>
-<p>And if you have any questions, you can join wxWidgets community using</p>
+<p>下载链接是 <a href="https://www.wxwidgets.org">https://www.wxwidgets.org</a>。主要的下载地址是 <a href="https://github.com/wxWidgets/wxWidgets/releases/latest">https://github.com/wxWidgets/wxWidgets/releases/latest</a>。另外，最新版本可以通过版本控制系统 Git （<a href="https://github.com/wxWidgets/wxWidgets">https://github.com/wxWidgets/wxWidgets</a>）获得。</p>
+<p>你正在阅读的 wxWidgets 文档也可以通过 <a href="http://docs.wxwidgets.org/trunk/">http://docs.wxwidgets.org/trunk/</a> 在线观看，也可以访问我们的 WIKI 站点<a href="https://wiki.wxwidgets.org/"> https://wiki.wxwidgets.org/ </a>查看用户贡献的内容。</p>
+<p>如果你还有什么问题，可以通过以下方式加入我们的社区：</p>
 <ul>
-<li>Web-based <a href="https://forums.wxwidgets.org/">wxForum</a></li>
-<li><a href="https://www.wxwidgets.org/support/mailing-lists/">Mailing lists</a></li>
-<li><a href="https://www.wxwidgets.org/support/irc/">IRC Channel</a></li>
-<li>Or asking questions with <code>wxwidgets</code> tag on Stack Overflow: <a href="https://stackoverflow.com/questions/tagged/wxwidgets">https://stackoverflow.com/questions/tagged/wxwidgets</a> </li>
+<li>站点 <a href="https://forums.wxwidgets.org/"> wxForum</a></li>
+<li><a href="https://www.wxwidgets.org/support/mailing-lists/">邮箱列表</a></li>
+<li><a href="https://www.wxwidgets.org/support/irc/">IRC 频道</a></li>
+<li>或者在 Stack Overflow 上提问，并附加 <code>wxWidgets</code> 标签<a href="https://stackoverflow.com/questions/tagged/wxwidgets">https://stackoverflow.com/questions/tagged/wxwidgets</a> </li>
 </ul>
 </div></div><!-- contents -->
 
 <address class="footer">
 	<small>
-		Generated on Sun Feb 28 2016 22:43:21 for wxWidgets by <a href="http://www.doxygen.org/index.html" target="_new">Doxygen</a> 1.8.8
+		2016年2月28日 星期日 22:43:21，由<a href="http://www.doxygen.org/index.html" target="_new"> Doxygen </a> 1.8.8生成
 	</small>
 </address>
 <script src="wxwidgets.js" type="text/javascript"></script>
